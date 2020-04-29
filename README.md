@@ -8,5 +8,7 @@ This **US** project currently comprises 3 public sub-projects:
   
 ![US dependencies](us-dependencies.png "US Dependencies")
 
+The US infrastructure depends on the [Ceylan](https://github.com/Olivier-Boudeville/Ceylan) one.
+
 This repository is just an umbrella, in the sense it is mostly empty: its purpose is only to federate and give access to the US-* actual subprojects. 
 

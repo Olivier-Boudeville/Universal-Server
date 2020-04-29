@@ -1,0 +1,63 @@
+digraph D {
+
+  label = "Dependencies of US-based Projects\n\n(\"A -> B\" means \"B depends on A\" \nwhile \"C - D\" means \"C and D may interact\")\n";
+  labelloc = "t"; // place the label at the top (b seems to be default)
+
+  node [shape=record fontname="Sans serif" fontsize="8"];
+  rankdir=BT;
+
+  //{ rank=same c py sh er };
+
+  compound=true;
+
+  subgraph cluster_us
+  {
+
+	label = "Universal-Server";
+	color = "blue";
+	labelloc = "t";
+
+	uss [ label = "us-main" ];
+	usw [ label = "us-web" ];
+	usc [ label = "us-common" ];
+
+  }
+
+  usc -> uss;
+  usc -> usw;
+  uss -> usw [arrowhead=none];
+
+  subgraph cluster_ceylan
+  {
+
+	label = "                      Ceylan";
+	labelloc = "t";
+
+	myr [ label = "Ceylan-Myriad" ];
+	wpr [ label = "Ceylan-WOOPER" ];
+	trc [ label = "Ceylan-Traces" ];
+	sea [ label = "Ceylan-Seaplus" ];
+	mob [ label = "Ceylan-Mobile" ];
+
+  }
+
+  trc -> usc [ltail=cluster_ceylan,lhead=cluster_us];
+
+  subgraph cluster_lang
+  {
+
+	label = "Languages";
+	labelloc = "t";
+
+	c  [ label = "C/C++" ];
+	er [ label = "Erlang" ];
+
+  }
+
+  er -> myr;
+  myr -> wpr;
+  wpr -> trc;
+  { myr, c} -> sea;
+  sea -> mob;
+
+}

@@ -62,7 +62,7 @@ pdf: clean-doc doc $(DOC_PDF_NAME)
 # (please then remove all initial content of that branch)
 #
 clone-mirror:
-	@cd ../../ && git clone https://github.com/Olivier-Boudeville/Universal-Server $(GITHUB_PAGES_BASE) && cd $(GITHUB_PAGES_BASE) && git checkout -b gh-pages
+	@cd .. && git clone https://github.com/Olivier-Boudeville/Universal-Server $(GITHUB_PAGES_BASE) && cd $(GITHUB_PAGES_BASE) && git checkout -b gh-pages
 
 
 export-doc: clean-doc full-doc export-to-official export-to-mirror

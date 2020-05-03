@@ -66,7 +66,7 @@ This mostly empty overview serves only as an entry point to the various parts of
 
 From the highest level to the lowest, the software stack involved in the Universal Server is the following:
 
-:raw-html:`<center><img src="us-dependencies.png" width="25%"></img></center>`
+:raw-html:`<center><img src="us-dependencies.png" width="30%"></img></center>`
 :raw-latex:`\includegraphics[scale=0.55]{us-dependencies.png}`
 
 :raw-latex:`\pagebreak`

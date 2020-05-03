@@ -15,4 +15,4 @@ The **US** project currently comprises indeed 3 public subprojects:
 
 The US infrastructure depends on the [Ceylan](https://github.com/Olivier-Boudeville/Ceylan) one.
 
-Please refer to the [Universal Server official documentation](http://us.esperide.org) for further information, otherwise to its [mirror](http://olivier-boudeville.github.io/us/).
+Please refer to the [Universal Server official documentation](http://us.esperide.org) for further information, otherwise to its [mirror](http://olivier-boudeville.github.io/Universal-Server/).

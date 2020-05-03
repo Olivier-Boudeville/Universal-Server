@@ -20,7 +20,7 @@
 
 :raw-html:`<a name="us-umbrella_top"></a>`
 
-:raw-html:`<div class="banner"><p><em>Universal Server documentation</em> <a href="http://us.esperide.org">browse latest</a> <a href="https://olivier-boudeville.github.io/universal-server/index.html">browse mirror</a> <a href="us-umbrella-technical-manual-english.pdf">get PDF</a> <a href="#us-umbrella_top">go to top</a> <a href="#us-umbrella_bottom">go to bottom</a> <a href="mailto:about(dash)universal-server(at)esperide(dot)com?subject=[Universal%20Server]%20Remark">email us</a></p></div>`
+:raw-html:`<div class="banner"><p><em>US documentation</em> <a href="http://us.esperide.org">browse latest</a> <a href="https://olivier-boudeville.github.io/Universal-Server/index.html">browse mirror</a> <a href="us-umbrella-overview-english.pdf">get PDF</a> <a href="#us-umbrella_top">go to top</a> <a href="#us-umbrella_bottom">go to bottom</a> <a href="mailto:about(dash)universal-server(at)esperide(dot)com?subject=[Universal%20Server]%20Remark">email us</a></p></div>`
 
 
 

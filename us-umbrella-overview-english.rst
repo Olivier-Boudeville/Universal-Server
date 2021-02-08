@@ -20,7 +20,7 @@
 
 :raw-html:`<a name="us-umbrella_top"></a>`
 
-:raw-html:`<div class="banner"><p><em>US documentation</em> <a href="http://us.esperide.org">browse latest</a> <a href="https://olivier-boudeville.github.io/Universal-Server/index.html">browse mirror</a> <a href="us-umbrella-overview-english.pdf">get PDF</a> <a href="#us-umbrella_top">go to top</a> <a href="#us-umbrella_bottom">go to bottom</a> <a href="mailto:about(dash)universal-server(at)esperide(dot)com?subject=[Universal%20Server]%20Remark">email us</a></p></div>`
+:raw-html:`<div class="banner"><p><em>US documentation</em> <a href="http://us.esperide.org">browse latest</a> <a href="https://olivier-boudeville.github.io/Universal-Server/index.html">browse mirror</a> <a href="us-umbrella-overview-english.pdf">get PDF</a> <a href="#us-umbrella_top">go to top</a> <a href="#us-umbrella_bottom">go to bottom</a> <a href="https://github.com/Olivier-Boudeville/Universal-Server">go to project</a> <a href="mailto:about(dash)universal-server(at)esperide(dot)com?subject=[Universal%20Server]%20Remark">email us</a></p></div>`
 
 
 
@@ -37,9 +37,9 @@ Overview of the ``Universal Server`` Umbrella Project
 :Organisation: Copyright (C) 2019-2020 Olivier Boudeville
 :Contact: about (dash) universal-server (at) esperide (dot) com
 :Creation date: Saturday, May 2, 2020
-:Lastly updated: Sunday, May 3, 2020
+:Lastly updated: Monday, February 8, 2021
 :Status: Work in progress
-:Version: 0.0.1
+:Version: 0.0.2
 :Dedication: Users and maintainers of the ``Universal Server`` projects.
 :Abstract:
 
@@ -81,6 +81,7 @@ More precisely this stack entails:
 - `Erlang <http://erlang.org>`_ (for the compiler and runtime)
 - `GNU/Linux <https://en.wikipedia.org/wiki/Linux>`_
 
+The repository for this entry point is located `here <https://github.com/Olivier-Boudeville/Universal-Server>`_.
 
 
 -----------

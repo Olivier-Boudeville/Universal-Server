@@ -12,11 +12,6 @@
 .. role:: raw-latex(raw)
    :format: latex
 
-.. comment Would appear too late, can only be an be used only in preamble:
-.. comment :raw-latex:`\usepackage{graphicx}`
-.. comment As a result, in this document at least a '.. figure:: XXXX' must
-.. exist, otherwise: 'Undefined control sequence \includegraphics.'.
-
 
 :raw-html:`<a name="us-umbrella_top"></a>`
 
@@ -24,8 +19,8 @@
 
 
 
-:raw-html:`<center><img src="us-umbrella-title.png" width="70%"></img></center>`
-:raw-latex:`\includegraphics[scale=1.5]{us-umbrella-title.png}`
+:raw-html:`<center><img src="us-umbrella-title.png" width="60%"></img></center>`
+:raw-latex:`\centering \includegraphics[scale=1.5]{us-umbrella-title.png}`
 
 
 
@@ -37,7 +32,7 @@ Overview of the ``Universal Server`` Umbrella Project
 :Organisation: Copyright (C) 2019-2020 Olivier Boudeville
 :Contact: about (dash) universal-server (at) esperide (dot) com
 :Creation date: Saturday, May 2, 2020
-:Lastly updated: Monday, February 8, 2021
+:Lastly updated: Friday, March 12, 2021
 :Status: Work in progress
 :Version: 0.0.2
 :Dedication: Users and maintainers of the ``Universal Server`` projects.
@@ -90,12 +85,8 @@ Ending Word
 
 Have fun with the Universal Server!
 
-.. comment Mostly added to ensure there is at least one figure directive,
-.. otherwise the LateX graphic support will not be included:
 
-.. figure:: us-umbrella-title.png
-   :alt: US-Umbrella logo
-   :width: 50 %
-   :align: center
+:raw-html:`<center><img src="us-umbrella-title.png" width="30%"></img></center>`
+:raw-latex:`\begin{figure}[h] \centering \includegraphics[scale=0.8]{us-umbrella-title.png} \end{figure}`
 
 :raw-html:`<a name="us-umbrella_bottom"></a>`
